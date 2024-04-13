@@ -107,14 +107,30 @@ img {
     color: rgba(4, 3, 6, 0.4);
 }
 
+
+.reviews-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 18px;
+    width: 335px;
+    height: 238px;
+
+}
+
 .reviews-item {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
     gap: 24px;
-    width: 303px;
-    height: 180px;
+    border: 1px solid rgba(122, 49, 69, 0.3);
+    border-radius: 24px;
+    padding: 20px 16px;
+    width: 335px;
+    height: 238px;
+    background: #fbfbfb;
 }
 
 .reviews-img {
