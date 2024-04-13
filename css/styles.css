@@ -118,8 +118,8 @@ img {
     gap: 24px;
     width: 303px;
     height: 180px;
-    padding: 20px, 16px, 38px, 16px;
 }
+
 
 .reviews-item-wrap {
     display: flex;
@@ -145,4 +145,39 @@ img {
     padding: 12px;
     width: 56px;
     height: 56px;
+}
+
+.reviews-title-wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 335px;
+    height: 224px;
+
+}
+
+.reviews-wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 40px;
+    padding: 80px 20px;
+    width: 375px;
+    height: 662px;
+    background: #fbfbfb;
+}
+
+.reviews-review-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    width: 302px;
+    height: 100px;
+
+
 }
