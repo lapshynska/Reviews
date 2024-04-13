@@ -78,7 +78,7 @@ img {
 
     font-weight: 600;
     font-size: 48px;
-    line-height: 1.04167;
+    line-height: 1.04;
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #141414;
@@ -86,6 +86,13 @@ img {
 
 .customers {
     color: #576f35;
+}
+
+.reviews-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #141414;
 }
 
 .reviews-name {
@@ -135,18 +142,12 @@ img {
     background: #fbfbfb;
 }
 
+
+
 .reviews-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 8px;
-    border-radius: 72px;
-    padding: 12px;
+    border-radius: 100px;
     width: 56px;
     height: 56px;
-
-
 }
 
 .reviews-title-wrap {
