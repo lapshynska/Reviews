@@ -45,32 +45,6 @@ img {
     margin: 0 auto;
 }
 
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding: 32px;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-        padding: 0 100px;
-    }
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 .reviews-wrap {
     display: flex;
@@ -184,4 +158,116 @@ img {
     color: rgba(4, 3, 6, 0.4);
 
 
+}
+
+.item-3 {
+    display: none;
+}
+
+.item-2 {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 32px;
+
+    }
+
+
+
+    .reviews-title {
+
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 1;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: #141414;
+    }
+
+    .reviews-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
+        color: #141414;
+    }
+
+    .reviews-title-wrap {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 25px;
+        width: 553px;
+        height: 193px;
+        margin-bottom: 50px;
+
+    }
+
+    .reviews-wrap {
+        gap: 10px;
+        padding: 100px 32px;
+        width: 768px;
+        height: 701px;
+    }
+
+    .reviews-list {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 18px;
+        width: 704px;
+        height: 258px;
+
+    }
+
+
+
+    .item-2 {
+        display: flex;
+
+    }
+
+    .item-3 {
+        display: none;
+    }
+
+    .reviews-name {
+
+
+        line-height: 1.1;
+
+    }
+
+
+    .reviews-item-wrap {
+
+        padding: 20px 20px 20px 20px;
+
+    }
+
+    .reviews-list {}
+
+    .reviews-item {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 18px;
+        width: 343px;
+        height: 258px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 100px;
+    }
 }
