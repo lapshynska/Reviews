@@ -270,4 +270,16 @@ img {
         max-width: 1280px;
         padding: 0 100px;
     }
+
+    .reviews-wrap {
+
+        padding: 100px;
+        width: 1280px;
+        height: 701px;
+    }
+
+    .item-3 {
+        display: flex;
+    }
+
 }
