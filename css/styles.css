@@ -39,11 +39,17 @@ img {
     font-style: normal;
 }
 
+.reviews {
+
+    background-color: #fbfbfb;
+}
+
 .container {
     max-width: 375px;
     padding: 0 20px;
     margin: 0 auto;
 }
+
 
 
 .reviews-wrap {
@@ -55,7 +61,9 @@ img {
     padding: 80px 20px;
     width: 375px;
     height: 662px;
-    background: #fbfbfb;
+
+
+
 }
 
 .reviews-title-wrap {
